@@ -1,0 +1,74 @@
+.heading-container {
+    background-color: #0d1333;
+    margin: 30px 0 30px 0;
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 40% 30% auto;
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: #151e52;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.grid-item{
+    font-size: 0.8rem;
+    word-wrap: break-word;
+}
+
+.name-heading, .phone-heading{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #808080;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+
+.letter-heading{
+    height: 20px;
+    width: 90%;
+    color: #808080;
+    font-size: 0.7rem;
+    text-align: start;
+    line-height: 10px;
+}
+
+.name-phone{
+    height: 30px;
+    line-height: 30px;
+}
+
+.delete-btn{
+    background-color: transparent;
+    color: #000;
+    justify-self: center;
+    border-color: #fff;
+    margin-top: 3px;
+}
+
+.delete-btn:hover{
+    border-color: red;
+}
+
+.delete-btn span{
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+
+.delete-btn:hover span{
+    color: red;
+}
+
+.to-add-btn{
+    position: fixed;
+    background-color: #32c532;
+    bottom: 10%;
+    left: 80%;
+    height: 45px;
+    width: 45px;
+    border-color: #fff;
+}
+

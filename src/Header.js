@@ -4,7 +4,7 @@ import './Header.css';
 const Header = function(props){
     return(
         <div className='header'>
-            {props.heading}
+            <span>{props.heading}</span>
         </div>
     )
 }

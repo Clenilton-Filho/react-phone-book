@@ -1,0 +1,67 @@
+.component-body-container .add-entry-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.back-btn{
+    background-color: #a8a8a8;
+    align-self: flex-end;
+    margin: 30px 55px;
+    height: 40px;
+    width: 40px;
+}
+
+.back-btn span{
+    line-height: 35px;
+}
+
+.entry-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-control {
+    color: #e2e2e2;
+    font-size: .9rem;
+}
+
+.input-control {
+    background-color: #1e2a72;
+    color: #fff;
+    width: 300px;
+    min-width: 100px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.entry-info-container {
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    margin: 20px 0;
+}
+
+.entry-to-add-heading {
+    color: #159de6;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.entry-info {
+    color: #e2e2e2;
+}
+
+.add-btn{
+    background-color: #32c532;
+    height: 35px;
+    width: 80px;
+    margin: 15px auto;
+    border-color: #fff;
+}
